@@ -12,6 +12,7 @@ import { Register } from '../pages/Register';
 import { Dashboard } from '../pages/Dashboard';
 import { PostJob } from '../pages/PostJob';
 import { About } from '../pages/About';
+import FloatingChatbot from '../components/FloatingChatbot';
 
 
 // Protected route component
@@ -53,6 +54,7 @@ export const AppRoutes: React.FC = () => {
             </Routes>
           </AnimatePresence>
         </main>
+        <FloatingChatbot />
         <Footer />
       </div>
     </AuthProvider>

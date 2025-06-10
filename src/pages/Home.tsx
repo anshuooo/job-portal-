@@ -56,9 +56,9 @@ export const Home: React.FC = () => {
               Connect with thousands of employers and discover opportunities that match your skills and career goals.
             </p>
             
-            <div className="bg-white rounded-xl p-4 md:p-6 shadow-lg max-w-4xl mx-auto">
-              <SearchBar onSearch={handleSearch} large />
-            </div>
+            <div className="bg-white rounded-xl p-4 md:p-6 shadow-lg max-w-4xl mx-auto text-black">
+                <SearchBar onSearch={handleSearch} large />
+                   </div>
             
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Button 
